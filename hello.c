@@ -23,7 +23,7 @@ int main(){
 				"       ID = get_global_id(0);"
 				"       Nthreads = get_global_size(0);"
 				"       n = 5;"
-				"       ratio = (n / Nthreads);"  // number of elements for each thread
+				"       ratio = (n / Nthreads);"  		// number of elements for each thread
 				"       start = ratio * ID;"   
 				"       stop  = ratio * (ID + 1);"
 				"       for (int i=start; i< n; i++)"
