@@ -1,3 +1,3 @@
-test: test.cpp
-	g++ -g -std=c++0x test.cpp -o test -lOpenCL
-	./test
+all: 
+	gcc -g -o hello hello.c -lOpenCL
+	./hello
